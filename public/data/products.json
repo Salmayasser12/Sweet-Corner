@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "category": "Cookies",
+    "name": { "en": "Classic Cookies", "ar": "كوكيز كلاسيك" },
+    "description": { "en": "Classic soft baked chocolate cookies.", "ar": "كوكيز طرية محشية بالشوكولاتة." },
+    "imageUrl": "/images/photo_2026-01-12_17-57-03.jpg",
+    "options": [
+      { "label": "1 piece", "price": 40, "currency": "EGP" },
+      { "label": "7 pieces", "price": 255, "currency": "EGP" },
+      { "label": "10 pieces", "price": 325, "currency": "EGP" },
+      { "label": "14 pieces", "price": 435, "currency": "EGP" }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Cookies",
+    "name": { "en": "Galaxy Cookies", "ar": "كوكيز جالاكسي" },
+    "description": { "en": "Cookies filled with Galaxy chocolate.", "ar": "كوكيز محشية بشوكولاتة جالاكسي." },
+    "imageUrl": "/images/photo_2026-01-12_17-57-02.jpg",
+    "options": [
+      { "label": "1 piece", "price": 40, "currency": "EGP" },
+      { "label": "7 pieces", "price": 255, "currency": "EGP" },
+      { "label": "10 pieces", "price": 325, "currency": "EGP" },
+      { "label": "14 pieces", "price": 435, "currency": "EGP" }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Cookies",
+    "name": { "en": "Kinderella Cookies", "ar": "كوكيز كيندريلا" },
+    "description": { "en": "Cookies filled with Kinder chocolate.", "ar": "كوكيز محشية بشوكولاتة كيندر." },
+    "imageUrl": "/images/photo_2026-01-12_17-57-01.jpg",
+    "options": [
+      { "label": "1 piece", "price": 48, "currency": "EGP" },
+      { "label": "7 pieces", "price": 290, "currency": "EGP" },
+      { "label": "10 pieces", "price": 360, "currency": "EGP" },
+      { "label": "14 pieces", "price": 435, "currency": "EGP" }
+    ]
+  },
+
+  {
+    "id": 4,
+    "category": "Mini Cookies",
+    "name": { "en": "Mini Cookies", "ar": "ميني كوكيز" },
+    "description": { "en": "Mini cookies with chocolate cups.", "ar": "ميني كوكيز مع أكواب شوكولاتة." },
+    "imageUrl": "/images/photo_2026-01-12_17-56-59.jpg",
+    "options": [
+      { "label": "7 pieces with 1 cup", "price": 240, "currency": "EGP" },
+      { "label": "10 pieces with 1 cup", "price": 315, "currency": "EGP" },
+      { "label": "14 pieces with 2 cups", "price": 395, "currency": "EGP" }
+    ]
+  },
+
+  {
+    "id": 5,
+    "category": "Cookies Cakes",
+    "name": { "en": "Classic Cookies Cake", "ar": "كيكة كوكيز كلاسيك" },
+    "description": { "en": "Classic cookies cake filled with chocolate.", "ar": "كيكة كوكيز محشية بالشوكولاتة." },
+    "imageUrl": "/images/photo_2026-01-12_17-56-57.jpg",
+    "options": [
+      { "label": "Small", "price": 230, "currency": "EGP" },
+      { "label": "Medium", "price": 310, "currency": "EGP" },
+      { "label": "Large", "price": 345, "currency": "EGP" },
+      { "label": "Family", "price": 580, "currency": "EGP" }
+    ]
+  },
+
+  {
+    "id": 6,
+    "category": "Tarts",
+    "name": { "en": "Chocolate Chip Cookies Tart", "ar": "تارت كوكيز شوكولاتة" },
+    "description": { "en": "Cookies tart with chocolate filling.", "ar": "تارت كوكيز محشي بالشوكولاتة." },
+    "imageUrl": "/images/photo_2026-01-12_17-56-58.jpg",
+    "options": [
+      { "label": "Small", "price": 255, "currency": "EGP" },
+      { "label": "Medium", "price": 335, "currency": "EGP" },
+      { "label": "Large", "price": 370, "currency": "EGP" },
+      { "label": "Family", "price": 680, "currency": "EGP" }
+    ]
+  },
+
+  {
+    "id": 7,
+    "category": "Brownies",
+    "name": { "en": "Brownies Plain", "ar": "براونيز سادة" },
+    "description": { "en": "Classic brownies.", "ar": "براونيز سادة." },
+    "imageUrl": "/images/photo_2026-01-12_17-56-58.jpg",
+    "options": [
+      { "label": "6 pieces", "price": 280, "currency": "EGP" },
+      { "label": "9 pieces", "price": 300, "currency": "EGP" },
+      { "label": "12 pieces", "price": 320, "currency": "EGP" }
+    ]
+  },
+
+  {
+    "id": 8,
+    "category": "Bakeries",
+    "name": { "en": "Honey Cake", "ar": "كيك العسل" },
+    "description": { "en": "Russian honey layered cake.", "ar": "كيك العسل الروسي بطبقات كريمية." },
+    "imageUrl": "/images/photo_2026-01-12_17-56-57.jpg",
+    "options": [
+      { "label": "Caramel", "price": 360, "currency": "EGP" },
+      { "label": "Coffee", "price": 360, "currency": "EGP" },
+      { "label": "Louts", "price": 400, "currency": "EGP" }
+    ]
+  }
+]
