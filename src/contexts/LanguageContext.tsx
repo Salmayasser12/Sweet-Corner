@@ -37,6 +37,10 @@ const translations: Record<string, Record<Language, string>> = {
   // Product Modal
   'modal.options': { ar: 'الأحجام والأسعار', en: 'Sizes & Prices' },
   'modal.description': { ar: 'الوصف', en: 'Description' },
+  'modal.notes': { ar: 'ملاحظات', en: 'Notes' },
+  'modal.noNotes': { ar: 'لا توجد ملاحظات إضافية لهذا المنتج.', en: 'No additional notes for this product.' },
+  'modal.extrasButton': { ar: 'عرض السعر بعد الإضافات', en: 'View price with extras' },
+  'modal.basePriceButton': { ar: 'عرض السعر الأساسي', en: 'View base price' },
   'modal.close': { ar: 'إغلاق', en: 'Close' },
   
   // Empty State

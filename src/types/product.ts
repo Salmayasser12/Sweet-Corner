@@ -17,6 +17,11 @@ export interface Product {
   };
   imageUrl: string;
   options: ProductOption[];
+  notes?: {
+    en: string[];
+    ar: string[];
+  };
+  withExtraChocolate?: ProductOption[];
 }
 
 export type Category = 'All' | 'Cookies' | 'Mini Cookies' | 'Cookies Cakes' | 'Tarts' | 'Brownies' | 'Bakeries';

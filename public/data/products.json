@@ -4,7 +4,7 @@
     "category": "Cookies",
     "name": { "en": "Classic Cookies", "ar": "كوكيز كلاسيك" },
     "description": { "en": "Classic soft baked chocolate cookies.", "ar": "كوكيز طرية محشية بالشوكولاتة." },
-    "imageUrl": "/images/photo_2026-01-12_17-57-03.jpg",
+    "imageUrl": "/images/classic-cookie.png",
     "options": [
       { "label": "1 piece", "price": 40, "currency": "EGP" },
       { "label": "7 pieces", "price": 255, "currency": "EGP" },
@@ -17,7 +17,7 @@
     "category": "Cookies",
     "name": { "en": "Galaxy Cookies", "ar": "كوكيز جالاكسي" },
     "description": { "en": "Cookies filled with Galaxy chocolate.", "ar": "كوكيز محشية بشوكولاتة جالاكسي." },
-    "imageUrl": "/images/photo_2026-01-12_17-57-02.jpg",
+    "imageUrl": "/images/galaxy.png",
     "options": [
       { "label": "1 piece", "price": 40, "currency": "EGP" },
       { "label": "7 pieces", "price": 255, "currency": "EGP" },
@@ -30,7 +30,7 @@
     "category": "Cookies",
     "name": { "en": "Kinderella Cookies", "ar": "كوكيز كيندريلا" },
     "description": { "en": "Cookies filled with Kinder chocolate.", "ar": "كوكيز محشية بشوكولاتة كيندر." },
-    "imageUrl": "/images/photo_2026-01-12_17-57-01.jpg",
+    "imageUrl": "/images/kinder.png",
     "options": [
       { "label": "1 piece", "price": 48, "currency": "EGP" },
       { "label": "7 pieces", "price": 290, "currency": "EGP" },
@@ -38,71 +38,360 @@
       { "label": "14 pieces", "price": 435, "currency": "EGP" }
     ]
   },
-
   {
     "id": 4,
+    "category": "Cookies",
+    "name": { "en": "Lotus Cookies", "ar": "كوكيز لوتس" },
+    "description": { "en": "Cookies filled with Lotus chocolate.", "ar": "كوكيز محشية باللوتس ." },
+    "imageUrl": "/images/lotus.png",
+    "options": [
+      { "label": "1 piece", "price": 45, "currency": "EGP" },
+      { "label": "7 pieces", "price": 295, "currency": "EGP" },
+      { "label": "10 pieces", "price": 360, "currency": "EGP" },
+      { "label": "14 pieces", "price": 410, "currency": "EGP" }
+    ]
+  },
+    {
+    "id": 5,
+    "category": "Cookies",
+    "name": { "en": "Blueperry Cookies", "ar": "كوكيز بلوبيري" },
+    "description": { "en": "Cookies filled with Blueperry chocolate.", "ar": "كوكيز محشية بلوبيري ." },
+    "imageUrl": "/images/blueperry.jpg",
+    "options": [
+      { "label": "1 piece", "price": 45, "currency": "EGP" },
+      { "label": "7 pieces", "price": 270, "currency": "EGP" },
+      { "label": "10 pieces", "price": 355, "currency": "EGP" },
+      { "label": "14 pieces", "price": 445, "currency": "EGP" }
+    ]
+  },  {
+    "id": 6,
+    "category": "Cookies",
+    "name": { "en": "Pistachio Cookies", "ar": "كوكيز الفستق" },
+    "description": { "en": "Cookies filled with Pistachio chocolate.", "ar": "كوكيز محشية بالفستق ." },
+    "imageUrl": "/images/pistachio.png",
+    "options": [
+      { "label": "1 piece", "price": 48, "currency": "EGP" },
+      { "label": "7 pieces", "price": 280, "currency": "EGP" },
+      { "label": "10 pieces", "price": 385, "currency": "EGP" },
+      { "label": "14 pieces", "price": 425, "currency": "EGP" }
+    ]
+  },
+  {
+      "id": 7,
     "category": "Mini Cookies",
     "name": { "en": "Mini Cookies", "ar": "ميني كوكيز" },
-    "description": { "en": "Mini cookies with chocolate cups.", "ar": "ميني كوكيز مع أكواب شوكولاتة." },
-    "imageUrl": "/images/photo_2026-01-12_17-56-59.jpg",
+    "description": { "en": "Mini cookie filled with rich chocolate and spices, a signature treat from the most delicious restaurant.", "ar": "قطع كوكيز ميني غنيه بالشوكولاته تتغمس في صوصاتنا المميزة لطعم ألذ." },
+    "imageUrl": "/images/minicookie2.jpg",
     "options": [
       { "label": "7 pieces with 1 cup", "price": 240, "currency": "EGP" },
       { "label": "10 pieces with 1 cup", "price": 315, "currency": "EGP" },
       { "label": "14 pieces with 2 cups", "price": 395, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Add Extra Cup of (Chocolate /Lotus /White Chocolate /Kinder) for 30 L.E",
+            "Add Extra Cup of (Pistachio /Blueberry) for 40 L.E"],
+      "ar": ["أضف كوب من  (شوكولاتة / لوتس / شوكولاتة بيضاء / كيندر) مقابل 30 جنيه",
+            "أضف كوب من (فستق / بلو بيري) مقابل 40 جنيه"]
+    }
+  },
+  {
+      "id": 8,
+    "category": "Mini Cookies",
+    "name": { "en": "Cookies Bites", "ar": "ميني كوكيز" },
+    "description": { "en": "Cookie bites filled with chocolate chips, a signature treat from the most delicious restaurant.", "ar": "قطع كوكيز بايتس غنيه بالتشوكليت شيبس تغمس في صوصاتنا المميزة لطعم ألذ." },
+    "imageUrl": "/images/cookiebites.png",
+    "options": [
+      { "label": "15 pieces with 1 chocolate cup", "price": 110, "currency": "EGP" },
+      { "label": "25 pieces with 1 chocolate cup", "price": 150, "currency": "EGP" },
+      { "label": "30 pieces with 2 chocolate cups", "price": 250, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Add Extra Cup of (Chocolate /Lotus /White Chocolate /Kinder) for 30 L.E",
+            "Add Extra Cup of (Pistachio /Blueberry) for 40 L.E"],
+      "ar": ["أضف كوب من  (شوكولاتة / لوتس / شوكولاتة بيضاء / كيندر) مقابل 30 جنيه",
+            "أضف كوب من (فستق / بلو بيري) مقابل 40 جنيه"]
+    }
+  },
+    {
+    "id": 9,
+    "category": "Tarts",
+    "name": { "en": "Lotus & Chocolate Cookies Tart", "ar": "تارت كوكيز لوتس و شوكولاتة" },
+    "description": { "en": "Chocolate-filled cookie tarts topped with a Lotus and chocolate sauce mix.", "ar": "تارت كوكيز محشي بالشوكولاته ومغطى بميكس صوص اللوتس والشوكولاته." },
+    "imageUrl": "/images/lotus&chocolate.png",
+    "options": [
+      { "label": "Small", "price": 285, "currency": "EGP" },
+      { "label": "Medium", "price": 330, "currency": "EGP" },
+      { "label": "Large", "price": 380, "currency": "EGP" },
+      { "label": "Extra", "price": 475, "currency": "EGP" },
+      { "label": "Family", "price": 670, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Add Extra Kinder Chocolate"],
+      "ar": ["أضف شوكولاتة كيندر إضافية"]
+    },
+    "withExtraChocolate": [
+      { "label": "Small", "price": 305, "currency": "EGP" },
+      { "label": "Medium", "price": 350, "currency": "EGP" },
+      { "label": "Large", "price": 395, "currency": "EGP" },
+      { "label": "Extra", "price": 495, "currency": "EGP" },
+      { "label": "Family", "price": 690, "currency": "EGP" }
     ]
   },
-
-  {
-    "id": 5,
+    {
+    "id": 10,
     "category": "Cookies Cakes",
     "name": { "en": "Classic Cookies Cake", "ar": "كيكة كوكيز كلاسيك" },
-    "description": { "en": "Classic cookies cake filled with chocolate.", "ar": "كيكة كوكيز محشية بالشوكولاتة." },
-    "imageUrl": "/images/photo_2026-01-12_17-56-57.jpg",
+    "description": { "en": "Classic cookie cake filled with chocolate plus pieces of milk chocolate.", "ar": " كيكة كوكيز كلاسيكية محشوة بالشوكولاتة بالإضافة إلى قطع شوكولاتة بالحليب." },
+    "imageUrl": "/images/classiccookie.png",
     "options": [
       { "label": "Small", "price": 230, "currency": "EGP" },
       { "label": "Medium", "price": 310, "currency": "EGP" },
       { "label": "Large", "price": 345, "currency": "EGP" },
+      { "label": "Extra", "price": 410, "currency": "EGP" },
       { "label": "Family", "price": 580, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Add Extra Chocoloate (Filling + Topping)"],
+      "ar": ["أضف شوكولاتة إضافية (حشوة + توبينج)"]
+    },
+    "withExtraChocolate": [
+      { "label": "Small", "price": 310, "currency": "EGP" },
+      { "label": "Medium", "price": 390, "currency": "EGP" },
+      { "label": "Large", "price": 445, "currency": "EGP" },
+      { "label": "Large", "price": 560, "currency": "EGP" },
+      { "label": "Family", "price": 770, "currency": "EGP" }
+    ]
+  },
+    {
+    "id": 11,
+    "category": "Cookies Cakes",
+    "name": { "en": "Chocolate Chip Cookies Cake", "ar": "كيكة كوكيز كلاسيك" },
+    "description": { "en": "Classic cookie cake filled with chocolate plus chocolate chip pieces.", "ar": " كيكة كوكيز كلاسيكية محشوة بالشوكولاتة بالإضافة إلى قطع التشوكلت شيبس." },
+    "imageUrl": "/images/chpicookie.png",
+    "options": [
+      { "label": "Small", "price": 235, "currency": "EGP" },
+      { "label": "Medium", "price": 325, "currency": "EGP" },
+      { "label": "Large", "price": 360, "currency": "EGP" },
+            { "label": "Extra", "price": 420, "currency": "EGP" },
+
+      { "label": "Family", "price": 595, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Add Extra Chocoloate (Filling + Topping)"],
+      "ar": ["أضف شوكولاتة إضافية (حشوة + توبينج)"]
+    },
+    "withExtraChocolate": [
+      { "label": "Small", "price": 315, "currency": "EGP" },
+      { "label": "Medium", "price": 405, "currency": "EGP" },
+      { "label": "Large", "price": 460, "currency": "EGP" },
+            { "label": "Extra", "price": 575, "currency": "EGP" },
+
+      { "label": "Family", "price": 785, "currency": "EGP" }
     ]
   },
 
   {
-    "id": 6,
+    "id": 12,
     "category": "Tarts",
     "name": { "en": "Chocolate Chip Cookies Tart", "ar": "تارت كوكيز شوكولاتة" },
-    "description": { "en": "Cookies tart with chocolate filling.", "ar": "تارت كوكيز محشي بالشوكولاتة." },
-    "imageUrl": "/images/photo_2026-01-12_17-56-58.jpg",
+    "description": { "en": " Classic cookie tart filled with chocolate, plus chocolate sauce and chocolate chip pieces.", "ar": "تارت كوكيز كلاسيكي محشي بالشوكولاتة بالإضافة إلى صوص الشوكلاتة وقطع التشوكلت شيبس." },
+    "imageUrl": "/images/ch-tart.png",
     "options": [
       { "label": "Small", "price": 255, "currency": "EGP" },
       { "label": "Medium", "price": 335, "currency": "EGP" },
       { "label": "Large", "price": 370, "currency": "EGP" },
+      { "label": "Extra", "price": 480, "currency": "EGP" },
       { "label": "Family", "price": 680, "currency": "EGP" }
     ]
   },
-
+  
+   {
+    "id": 13,
+    "category": "Tarts",
+    "name": { "en": "Kinderella Cookies Tart", "ar": "تارت كوكيز كيندر" },
+    "description": { "en": "Kinderella cookies filled with chocolate, plus Kinder pieces and chocolate sauce. For Kinder lovers, add Kinder chocolate starting from 60", "ar": "كيندريلا كوكيز محشوة بالشوكولاتة بالإضافة إلى قطع الكيندر وصوص الشوكلاتة.  لمحبي شوكولاتة كيندر، أضف شوكولاتة كيندر ابتداءً من 60" },
+    "imageUrl": "/images/kindertarte.png",
+    "options": [
+      { "label": "Small", "price": 275, "currency": "EGP" },
+      { "label": "Medium", "price": 335, "currency": "EGP" },
+      { "label": "Large", "price": 385, "currency": "EGP" },
+      { "label": "Extra", "price": 470, "currency": "EGP" },
+      { "label": "Family", "price": 690, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Extras: Kinder chocolate starting from 60 L.E"],
+      "ar": ["إضافات: شوكولاتة كيندر ابتداءً من 60 جنيه"]
+    }
+  },
+   {
+    "id": 14,
+    "category": "Tarts",
+    "name": { "en": "4-Season Cookies Tart", "ar": "تارت كوكيز الفصول الأربعة  " },
+    "description": { "en": "Chocolate-filled cookie tarts with a mix of flavors: chocolate, Lotus, Kinder, blueberry, pistachio, and white chocolate.", 
+                     "ar": "تارت كوكيز محشي بالشوكولاتة مع مزيج من النكهات: شوكولاتة، لوتوس، كيندر، فراولة، فستق، وشوكولاتة بيضاء.   " },
+    "imageUrl": "/images/four-tart.jpg",
+    "options": [
+      { "label": "Small", "price": 360, "currency": "EGP" },
+      { "label": "Large", "price": 445, "currency": "EGP" },
+      { "label": "Family", "price": 535, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": [
+        "For the 3-season cookie, the price is reduced by 30 EGP",
+        "Contains nuts and dairy products",
+        "Best consumed within 2 days of purchase"
+      ],
+      "ar": [
+        "أما بالنسبة لكعكة المواسم الثلاثة، فقد تم تخفيض سعرها بمقدار 30 جنيهًا مصريً",
+        "يحتوي على المكسرات ومنتجات الألبان",
+        "أفضل استهلاك خلال يومين من الشراء"
+      ]
+    }
+  },
+    {
+    "id": 15,
+    "category": "Tarts",
+    "name": { "en": " Mini Tart box (Flavors-1)", "ar": "بوكس ميني تارت (النكهات-1)" },
+    "description": { "en": " Mini chocolate-filled tarts with toppings of your choice: chocolate/white chocolate/Lotus.", "ar": "ميني تارت محشية بالشوكولاته مع اضافات من اختيارك بين: شوكلاتة/ شوكلاتة بيضاء/ \"لوتس\" ." },
+    "imageUrl": "/images/minitarte2.jpg",
+    "options": [
+      { "label": "2 pieces", "price": 200, "currency": "EGP" },
+      { "label": "3 pieces", "price": 255, "currency": "EGP" },
+      { "label": "4 pieces", "price": 305, "currency": "EGP" }
+    ]
+  },  
+      {
+    "id": 16,
+    "category": "Tarts",
+    "name": { "en": " Mini Tart box (Flavors-2)", "ar": "بوكس ميني تارت (النكهات-2)" },
+    "description": { "en": " Mini chocolate-filled tarts with toppings of your choice: pistachio/kinder/blurberry.", "ar": "ميني تارت محشية بالشوكولاته مع اضافات من اختيارك بين: بيستاشيو/ صوص كيندر / بلو بيري ." },
+    "imageUrl": "/images/minitarte.jpg",
+    "options": [
+      { "label": "2 pieces", "price": 210, "currency": "EGP" },
+      { "label": "3 pieces", "price": 300, "currency": "EGP" },
+      { "label": "4 pieces", "price": 370, "currency": "EGP" }
+    ]
+  },  
   {
-    "id": 7,
+    "id": 17,
     "category": "Brownies",
     "name": { "en": "Brownies Plain", "ar": "براونيز سادة" },
     "description": { "en": "Classic brownies.", "ar": "براونيز سادة." },
-    "imageUrl": "/images/photo_2026-01-12_17-56-58.jpg",
+    "imageUrl": "/images/Best Brownie.jpg",
     "options": [
       { "label": "6 pieces", "price": 280, "currency": "EGP" },
       { "label": "9 pieces", "price": 300, "currency": "EGP" },
       { "label": "12 pieces", "price": 320, "currency": "EGP" }
     ]
   },
+  {
+    "id": 18,
+    "category": "Brownies",
+    "name": { "en": "Brownies with toppings", "ar": "براونيز بإضافات" },
+    "description": { "en": "With toppings of your choice: Kendra Pistachio\nLotus/White Chocolate/Chocolate/Blueberry.", 
+    "ar": "مع إضافات من اختيارك: كيندرا فستق لوتس/شوكولاتة بيضاء/شوكولاتة/توت أزرق." },
+    "imageUrl": "/images/brownies.png",
+    "options": [
+      { "label": "6 pieces", "price": 310, "currency": "EGP" },
+      { "label": "9 pieces", "price": 330, "currency": "EGP" },
+      { "label": "12 pieces", "price": 350, "currency": "EGP" }
+    ]
+  },
+
+
+
 
   {
-    "id": 8,
+    "id": 19,
     "category": "Bakeries",
     "name": { "en": "Honey Cake", "ar": "كيك العسل" },
-    "description": { "en": "Russian honey layered cake.", "ar": "كيك العسل الروسي بطبقات كريمية." },
-    "imageUrl": "/images/photo_2026-01-12_17-56-57.jpg",
+    "description": { "en": "Russian honey layered cake that serves 8-10 people .", "ar": "كيك العسل الروسي بطبقات كريمية تكفي 8-10 افراد." },
+    "imageUrl": "/images/honeycake.jpg",
     "options": [
       { "label": "Caramel", "price": 360, "currency": "EGP" },
       { "label": "Coffee", "price": 360, "currency": "EGP" },
       { "label": "Louts", "price": 400, "currency": "EGP" }
+    ]
+  },
+    {
+    "id": 20,
+    "category": "Bakeries",
+    "name": { "en": "Honey Comb", "ar": "خلية النحل " },
+    "description": { "en": "Light and fluffy desserts rich in cream cheese or chocolate with sweetened condensed milk for an irresistible taste.", "ar": "حلويات هشة خفيفة غنية بالكيري او الشوكولاتة مع الحليب المكثف المحلى لطعم لا يقاوم   ." },
+    "imageUrl": "/images/honeycomb.png",
+    "options": [
+      { "label": "Kiri Small", "price": 255, "currency": "EGP" },
+      { "label": "Kiri Large", "price": 310, "currency": "EGP" },
+      { "label": "Chocolate Small", "price": 245, "currency": "EGP" },
+      { "label": "Chocolate Large", "price": 290, "currency": "EGP" },
+      { "label": "Kiri & Chocolate Small", "price": 230, "currency": "EGP" },
+      { "label": "Kiri & Chocolate Large", "price": 270, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Extras: sweetened condensed milk / kiri / chocolate = 40 L.E"],
+      "ar": ["إضافات: حليب مكثف / كيري / شوكولاتة = 40 جنيه"]
+    }
+  },
+    {
+    "id": 21,
+    "category": "Bakeries",
+    "name": { "en": "Cinnamon", "ar": "سينابون " },
+    "description": { "en": "Soft cinnamon rolls baked fresh, topped with rich creamy frosting and a warm cinnamon aroma..", "ar": "لفائف سينابون طرية ومخبوزة طازة، مغطاة بصوص كريمي غني وبرائحة قرفة دافية تفتح النفس. ." },
+    "imageUrl": "/images/cinnamon.jpg",
+    "options": [
+      { "label": "Classic", "price": 85, "currency": "EGP" },
+      { "label": "Louts", "price": 95, "currency": "EGP" },
+      { "label": "Caramel", "price": 95, "currency": "EGP" },
+      { "label": "White Chocolate", "price": 95, "currency": "EGP" },
+      { "label": "Chocolate", "price": 95, "currency": "EGP" },
+      { "label": "Kinder", "price": 100, "currency": "EGP" },
+      { "label": "Bluberry & Pistachio", "price": 110, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Extra white sauce OR nuts for 25 per piece"],
+      "ar": ["صوص أبيض إضافي أو مكسرات مقابل 25 لكل قطعة"]
+    }
+  },
+  {
+    "id": 22,
+    "category": "Cookies",
+    "name": { "en": "Cup-Cookies - Chocolate", "ar":  "كوكيز الكوب - شوكولاتة" },
+    "description": { "en": " Medium-sized cup cookies. A favorite snack among our young school customers .", "ar": "كاب كوكيز متوسطة الحجم. وهي الوجبة السريعة المفضلة لدى زبائننا الصغار في المدارس." },
+    "imageUrl": "/images/cupcookie.png",
+    "options": [
+      { "label": "1 piece", "price": 37, "currency": "EGP" },
+      { "label": "7 pieces", "price": 255, "currency": "EGP" },
+      { "label": "10 pieces", "price": 315, "currency": "EGP" },
+      { "label": "14 pieces", "price": 395, "currency": "EGP" }
+    ]
+  },
+   {
+    "id": 23,
+    "category": "Cookies",
+    "name": { "en": "Cup-Cookies - Different Flavors", "ar": "كوكيز الكوب - نكهات مختفة" },
+    "description": { "en": " Medium-sized cup cookies. A favorite snack among our young school customers .", "ar": "كاب كوكيز متوسطة الحجم. وهي الوجبة السريعة المفضلة لدى زبائننا الصغار في المدارس." },
+    "imageUrl": "/images/cup2.jpg",
+    "options": [
+      { "label": "7 pieces", "price": 315, "currency": "EGP" },
+      { "label": "10 pieces", "price": 370, "currency": "EGP" },
+      { "label": "14 pieces", "price": 450, "currency": "EGP" }
+    ],
+    "notes": {
+      "en": ["Flavors: Lotus / Kinder / Pistachio / Blueberry"],
+      "ar": ["النكهات: لوتس / كيندر / فستق / بلو بيري"]
+    }
+  },
+  {
+    "id": 24,
+    "category": "Cookies",
+    "name": { "en": "Cookies Festival", "ar": "مهرجان الكوكيز" },
+    "description": { "en": "A selection of cookies in different flavors: Oreo / Chocolate / Lotus / Pistachio / White Chocolate.", "ar": "كوكيز محشية بالفستق ." },
+    "imageUrl": "/images/cookiefestival.png",
+    "options": [
+      { "label": "6 piece", "price": 260, "currency": "EGP" },
+      { "label": "8 pieces", "price": 315, "currency": "EGP" },
+      { "label": "10 pieces", "price": 350, "currency": "EGP" },
+      { "label": "14 pieces", "price": 440, "currency": "EGP" }
     ]
   }
 ]

@@ -56,7 +56,7 @@ const Menu = () => {
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
         const nameEn = product.name.en.toLowerCase();
-        const nameAr = product.name.ar;
+        const nameAr = product.name.ar.toLowerCase();
         return nameEn.includes(query) || nameAr.includes(query);
       }
 
