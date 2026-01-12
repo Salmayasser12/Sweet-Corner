@@ -2,7 +2,6 @@ import { useState, useEffect, useMemo } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Header from '@/components/Header';
 import SearchBar from '@/components/SearchBar';
-import LanguageToggle from '@/components/LanguageToggle';
 import CategorySidebar from '@/components/CategorySidebar';
 import ProductCard from '@/components/ProductCard';
 import ProductModal from '@/components/ProductModal';
@@ -83,12 +82,6 @@ const Menu = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             <SearchBar value={searchQuery} onChange={setSearchQuery} />
-            <div className="hidden md:block">
-              <LanguageToggle />
-            </div>
-            <div className="md:hidden">
-              <LanguageToggle />
-            </div>
           </div>
         </div>
       </div>
