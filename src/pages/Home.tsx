@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] md:min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
+      <section className="relative h-[100svh] min-h-[100svh] md:min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
