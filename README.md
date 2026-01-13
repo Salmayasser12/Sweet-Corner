@@ -1,6 +1,8 @@
 # Sweet Corner 🧁
 A modern, bilingual (Arabic/English) responsive web application designed to showcase dessert menus for bakeries and dessert shops. Sweet Corner provides an elegant, user-friendly interface for customers to browse products, view details, and explore categories—all without the complexity of e-commerce features.
 
+**🌐 **Live Demo:** [https://sweet-corner.vercel.app/](https://sweet-corner.vercel.app/)**
+
 ## 📖 Overview
 Sweet Corner is a browse-only menu website that allows bakery owners to present their products professionally online. The application focuses on simplicity and accessibility, offering a seamless experience across all devices with full support for both Arabic and English languages, including proper RTL (Right-to-Left) and LTR (Left-to-Right) layouts.
 
