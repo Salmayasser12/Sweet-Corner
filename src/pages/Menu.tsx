@@ -4,7 +4,6 @@ import Header from '@/components/Header';
 import SearchBar from '@/components/SearchBar';
 import CategorySidebar from '@/components/CategorySidebar';
 import ProductCard from '@/components/ProductCard';
-import ProductModal from '@/components/ProductModal';
 import EmptyState from '@/components/EmptyState';
 import { Product, Category } from '@/types/product';
 
@@ -13,8 +12,6 @@ const Menu = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<Category>('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   // Fetch products
@@ -63,16 +60,6 @@ const Menu = () => {
     });
   }, [products, selectedCategory, searchQuery]);
 
-  const handleProductClick = (product: Product) => {
-    setSelectedProduct(product);
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-    setTimeout(() => setSelectedProduct(null), 200);
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -105,7 +92,6 @@ const Menu = () => {
                   <div key={product.id} style={{ animationDelay: `${index * 0.05}s` }}>
                     <ProductCard
                       product={product}
-                      onClick={() => handleProductClick(product)}
                       searchQuery={searchQuery}
                     />
                   </div>
@@ -124,13 +110,6 @@ const Menu = () => {
           </div>
         </div>
       </main>
-
-      {/* Product Modal */}
-      <ProductModal
-        product={selectedProduct}
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
     </div>
   );
 };

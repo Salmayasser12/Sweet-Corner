@@ -2,15 +2,16 @@ import { Product } from '@/types/product';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { useNavigate } from 'react-router-dom';
 
 interface ProductCardProps {
   product: Product;
-  onClick: () => void;
   searchQuery?: string;
 }
 
-const ProductCard = ({ product, onClick, searchQuery }: ProductCardProps) => {
+const ProductCard = ({ product, searchQuery }: ProductCardProps) => {
   const { language, t } = useLanguage();
+  const navigate = useNavigate();
   
   const name = product.name[language];
   const minPrice = Math.min(...product.options.map(o => o.price));
@@ -36,7 +37,7 @@ const ProductCard = ({ product, onClick, searchQuery }: ProductCardProps) => {
   return (
     <Card 
       className="group cursor-pointer overflow-hidden border-0 shadow-card hover:shadow-hover transition-all duration-300 hover:-translate-y-1 bg-card animate-fade-in"
-      onClick={onClick}
+      onClick={() => navigate(`/product/${product.id}`)}
     >
       <div className="relative aspect-square overflow-hidden">
         <img 
